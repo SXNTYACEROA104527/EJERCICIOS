@@ -1,0 +1,6 @@
+numero_entero1 = input("Ingresa un número entero que se elevará a la potencia del segundo ")
+numero_entero2 = input("Ingresa un número entero para hallar su potencia ")
+potencia = int(numero_entero2) ** int(numero_entero2)
+primero_potencia = int(numero_entero1) ** int(potencia)
+print("Esta es la potencia del segundo número",potencia)
+print("Este es el primer número elevado a la potencia del segundo",primero_potencia)
